@@ -21,3 +21,6 @@ let arr =  ["js","ts","node",100]; // ab ye array mujhe string and number dono v
 // Exp. of any
 // let random2:any[] = ["abc",123,true];  // array me bhut sari value ho tab ham iss situation me any ka use karenge
 
+
+
+

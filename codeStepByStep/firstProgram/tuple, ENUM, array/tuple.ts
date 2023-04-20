@@ -4,8 +4,8 @@
 
 // let role:string[] | number[] = ["admin","manager"];  // ya to ye number ho sakta hai ya string dono me se ek 
 
-
-// let role3:[string,string,number,number,boolean?] = ["admin","manager",1,3]
+// for specific type in array
+// let role3:[string,string,number,number,boolean?] = ["admin","manager",1,3]  // ?(question marks means boolean value ho sakti hai ya nhi bhi)
 // role3.push(true); // ye iske liye hai 
 // // role3[1]=20; // ye hame error dega
 // role3[1]="user"; // ab nhi error dega kyonki second item string define hai isliiye 

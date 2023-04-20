@@ -7,7 +7,7 @@ let data2:any = "hansraj"
 data2=12; // yha mujhe error aana chahiye thi 
 // disadvantage
 // isme error aane ke chances bad jate hai
-// jha tak posible ho any ko nhi use karna chahiye  
+// jha tak possible ho any ko nhi use karna chahiye  
 
 // Exp - 2
 // any ko ham array bhi define kar sakte hai 

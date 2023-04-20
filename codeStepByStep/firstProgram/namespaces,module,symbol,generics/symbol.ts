@@ -15,7 +15,7 @@
 // let s4 = Symbol('My identifier');
 
 // console.log(s3); // symbol(s3)
-// console.log(s3.toString()); // symbol(s3) color change ho gya hai, strig vala ho gya hai 
+// console.log(s3.toString()); // symbol(s3) color change ho gya hai, string vala ho gya hai 
 // console.log(s3===s4);  // false
 
 // // 3.
@@ -23,7 +23,8 @@
 // let data = {
 //     [s1]:"some data"
 // }
-// console.log(data[s1]);
+// console.log(data[s1]);  // "some data"
+// console.log(data.s1);  // undefined
 
 // // 4.
 // let demoF1 = Symbol("d1")

@@ -6,7 +6,7 @@
 // namespace js me aaj kal jyada use nhi hota hai 
 
 
-// /// <reference path="./Utils.ts" />
+// <reference path="./Utils.ts" />
 // namespace UsersUtils{
 //     export class Users extends Parent implements userType{
 //         getName(){

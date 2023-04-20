@@ -28,3 +28,22 @@
 
 // // 3. How to use unknown?
 // // 4. Interview Question.
+
+
+// Difference between any and unknown 
+
+// any
+let myVariable: any = "Hello, world!";
+console.log(myVariable.length); // No compile-time error, even though 'length' might not exist on 'myVariable'
+
+// unknown
+let myVariable2: unknown = "Hello, world!";
+console.log(myVariable.length); // Compile-time error: 'length' does not exist on type 'unknown'.
+
+// To access the length property on myVariable, we need to first narrow down its type using a type guard, like this
+let myVariable3: unknown = "Hello, world!";
+if (typeof myVariable === "string") {
+  console.log(myVariable.length); // No error: 'myVariable' is now known to be of type 'string'.
+}
+
+

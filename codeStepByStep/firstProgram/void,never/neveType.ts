@@ -18,11 +18,12 @@
 // console.log(tryReturn());  // undefined // ye undefined return karega
 
 // 3(3) - ye example hai never type ka 
-function apiError(msg,code):never{  // bina never likhne par bhi ye code chalega and void ke sath bhi work karega 
-    throw {message: msg, apiCode: code}
-    // a+b // ye bhi error hi
-}
-console.log(apiError("server side eroor",500));  // uncaought :{message: "server side eroor", apiCode: 500}
-// isne kuch return isliye nhi kiya knonki error aa gya, or error hamare code ko break kar deta hai or jaise hi hamara code break hota hai vo kuch bhi return nhi karta hai ts ke andar
+// function apiError(msg,code):never{  // bina never likhne par bhi ye code chalega and void ke sath bhi work karega 
+//     throw {message: msg, apiCode: code}
+//     // a+b // ye bhi error hi
+// }
+// console.log(apiError("server side eroor",500));  // uncaought :{message: "server side eroor", apiCode: 500}
+// isne kuch return isliye nhi kiya knonki error aa gya, or error hamare code ko break kar deta hai or jaise 
+// hi hamara code break hota hai vo kuch bhi return nhi karta hai ts ke andar
 
 // 4. Interview Question.
